@@ -7,7 +7,7 @@ export default {
     },
     selectOptions: {
       type: Array,
-      default: () => ["AkSoftware", "Personal"],
+      default: () => ["Freelance", "Personal"],
     },
   },
 };
