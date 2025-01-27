@@ -1,5 +1,5 @@
 // Projects data.
-// Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
+// Note: Here we are getting data from a js file. In real-world applications, you can get data from an API.
 
 const projects = [
 	{
@@ -40,6 +40,27 @@ const projects = [
 		img: require('@/assets/images/sub-bestellen.png'),
 		description: `With Sandwich Catering, a modern ordering platform was created for our Subway branch in Zehlendorf. The special thing about it is that the ordering process is extremely easy and quick to go through.`
 	},
+	{
+		id: 6,
+		title: 'ECORE',
+		category: 'Professional',
+		img: require('@/assets/images/ecore-lap.png'),
+		description: `Mit dem neutralen ECORE-Scoring erkennen Sie ESG- und Taxonomie-Risiken auf Gebäude- und Portfolioebene – ab nur 30 Fragen und mit tagesaktuellen Daten.`
+	},
+	{
+		id: 7,	
+		title: 'Mercedes-Benz Media',
+		category: 'Professional',
+		img: require('@/assets/images/mbm-lap.png'),
+		description:'Exklusive Einblicke und individuelle Angebote: Erleben Sie mit Mercedes-Benz das Maximum aus digitaler Live-PR'
+	},
+	{
+		id: 8,
+		title: 'Health Transformation Hub',
+		category: 'Professional',
+		img: require('@/assets/images/HTH-lap.png'),
+		description:"Das HTH-Panel zum Veränderungsklima im deutschen Gesundheitswesen"
+	}
 ];
 
 export default projects;
