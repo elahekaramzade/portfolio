@@ -15,12 +15,7 @@ export default {
           id: 1,
           name: "eli.ka1991@gmail.com",
           icon: "mail",
-        },
-        {
-          id: 2,
-          name: "+989127866084",
-          icon: "phone",
-        },
+        }
       ],
     };
   },
