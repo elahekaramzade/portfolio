@@ -7,7 +7,7 @@ export default {
     },
     selectOptions: {
       type: Array,
-      default: () => ["Freelance", "Personal"],
+      default: () => ["Freelance", "Personal","Professional"],
     },
   },
 };
